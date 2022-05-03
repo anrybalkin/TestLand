@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <nav class="header-block">
+                <h1 class="headline white-blue-color">Новый гороскоп на 2021 год!</h1>
+                <p class="text white-blue-color">Узнайте, что Вас ждёт.</p>
+            </nav>
+        </div>
+    </header>
+    <div class="wrapper main">
+        <main class="main-block">
+            <section id="start" class="visibilitysect-on">
+                <div class="wheel-block">
+                    <div class="wheel"></div>
+                </div>
+                <h2 class="headline blue-color">Узнайте, как 2021 год изменит жизнь каждого из нас!</h2>
+                <div class="text black-blue-color">К сожалению, 2020 год принес нам немало неприятностей, даже откровенных проблем и несчастий. Не смотря на это, 3 знака зодиака очень скоро обретут долгожданное счастье! 2021 год затронет своими потрясениями каждого из нас.</div>
+                <div class="poll-block">
+                    <div class="poll-headline-block  black-blue-bgc">
+                        <p class="poll-headline white-color">
+                            Укажите свой пол:
+                        </p>
+                    </div>
+                    <div class="poll-check-block gray-bgc horisontal">
+                        <p>
+                            <input type="radio" id="gender-female" name="gender-group">
+                            <label for="gender-female">Женщина</label>
+                          </p>
+                          <p>
+                            <input type="radio" id="gender-male" name="gender-group">
+                            <label for="gender-male">Мужчина</label>
+                          </p>
+                    </div>
+                </div>
+                <div class="btn-block start-btn-block visibility-off">
+                    <button id="start-btn" next="step1" class="btn white-color">Далее</button>
+                </div>
+            </section>
+            <section id="step1" class="visibility-off">
+                <div class="progress">
+                    <div class="progress-20"></div>
+                </div>
+                <div class="poll-block">
+                    <div class="poll-headline-block  black-blue-bgc">
+                        <p class="poll-headline white-color">
+                            В какое время суток вы чувствуете себя наиболее комфортно?
+                        </p>
+                    </div>
+                    <div class="poll-check-block gray-bgc vertical">
+                        <p>
+                            <input type="radio" id="times-of-day-morning" name="times-of-day-group">
+                            <label for="times-of-day-morning">Утро</label>
+                          </p>
+                          <p>
+                            <input type="radio" id="times-of-day-night" name="times-of-day-group">
+                            <label for="times-of-day-night">Ночь </label>
+                          </p>
+                          <p>
+                            <input type="radio" id="times-of-day-tonight" name="times-of-day-group">
+                            <label for="times-of-day-tonight">Вечер</label>
+                          </p>
+                          <p>
+                            <input type="radio" id="times-of-day-daytime" name="times-of-day-group">
+                            <label for="times-of-day-daytime">День</label>
+                          </p>
+                    </div>
+                </div>
+                <div class="btn-block step1-btn-block visibility-off">
+                    <button id="step1-btn" next="step2" class="btn white-color">Далее</button>
+                </div>
+            </section>
+            <section id="step2" class="visibility-off">
+                <div class="progress">
+                    <div class="progress-40"></div>
+                </div>
+                <div class="poll-block">
+                    <div class="poll-headline-block  black-blue-bgc">
+                        <p class="poll-headline white-color">
+                            Подскажите, мучает ли Вас бессонница последнее время?
+                        </p>
+                    </div>
+                    <div class="poll-check-block gray-bgc vertical">
+                        <p>
+                            <input type="radio" id="insomnia-yes" name="insomnia-group">
+                            <label for="insomnia-yes">Да</label>
+                          </p>
+                          <p>
+                            <input type="radio" id="insomnia-no" name="insomnia-group">
+                            <label for="insomnia-no">Нет </label>
+                          </p>
+                          <p>
+                            <input type="radio" id="insomnia-sometimes" name="insomnia-group">
+                            <label for="insomnia-sometimes">Иногда</label>
+                          </p>
+                    </div>
+                </div>
+                <div class="btn-block step2-btn-block visibility-off">
+                    <button id="step2-btn" next="step3" class="btn white-color">Далее</button>
+                </div>
+            </section>
+            <section id="step3" class="visibility-off">
+                <div class="progress">
+                    <div class="progress-60"></div>
+                </div>
+                <div class="poll-block">
+                    <div class="poll-headline-block  black-blue-bgc">
+                        <p class="poll-headline white-color">
+                            Чувствуете ли Вы в последнее время, что вам никак не удается осуществить ваши планы?
+                        </p>
+                    </div>
+                    <div class="poll-check-block gray-bgc vertical">
+                        <p>
+                            <input type="radio" id="plans-yes" name="plans-group">
+                            <label for="plans-yes">Да</label>
+                          </p>
+                          <p>
+                            <input type="radio" id="plans-no" name="plans-group">
+                            <label for="plans-no">Нет </label>
+                          </p>
+                          <p>
+                            <input type="radio" id="plans-sometimes" name="plans-group">
+                            <label for="plans-sometimes">Иногда</label>
+                          </p>
+                    </div>
+                </div>
+                <div class="btn-block step3-btn-block visibility-off">
+                    <button id="step3-btn" next="step4" class="btn white-color">Далее</button>
+                </div>
+            </section>
+            <section id="step4" class="visibility-off">
+                <div class="progress">
+                    <div class="progress-80"></div>
+                </div>
+                <div class="poll-block">
+                    <div class="poll-headline-block  black-blue-bgc">
+                        <p class="poll-headline white-color">
+                            Какой Вы видите свою жизнь через 5 лет?
+                        </p>
+                    </div>
+                    <div class="poll-check-block gray-bgc vertical">
+                        <p>
+                            <input type="radio" id="future-fam" name="future-group">
+                            <label for="future-fam">Брак, семья, дети, дом</label>
+                          </p>
+                          <p>
+                            <input type="radio" id="future-trav" name="future-group">
+                            <label for="future-trav">Путешествия по Миру </label>
+                          </p>
+                          <p>
+                            <input type="radio" id="future-career" name="future-group">
+                            <label for="future-career">Успешная карьера </label>
+                          </p>
+                          <p>
+                            <input type="radio" id="future-all" name="future-group">
+                            <label for="future-all">Всё вместе </label>
+                          </p>
+                    </div>
+                </div>
+                <div class="btn-block step4-btn-block visibility-off">
+                    <button id="step4-btn" next="step5" class="btn white-color">Далее</button>
+                </div>
+            </section>
+            <section id="step5" class="visibility-off">
+                <div class="progress">
+                    <div class="progress-100"></div>
+                </div>
+                <div class="poll-block">
+                    <div class="poll-headline-block  black-blue-bgc">
+                        <p class="poll-headline white-color">
+                            Введите дату своего рождения:
+                        </p>
+                    </div>
+                    <div class="poll-check-block gray-bgc center">
+                        
+                        <div class="custom-select" >
+                            <select name="day">
+                                <option value="0">День</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        </div>
+                        <div class="custom-select" >
+                            <select name="month">
+                              <option value="0">Месяц</option>
+                              <option value="01">01</option>
+                              <option value="02">02</option>
+                              <option value="03">03</option>
+                              <option value="04">04</option>
+                              <option value="05">05</option>
+                              <option value="06">06</option>
+                              <option value="07">07</option>
+                              <option value="08">08</option>
+                              <option value="09">09</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="12">12</option>
+                            </select>
+                        </div>
+                        <div class="custom-select">
+                            <select name="year">
+                                <option value="0">Год</option>
+                                <option value="1981">1981</option>
+                                <option value="1982">1982</option>
+                                <option value="1983">1983</option>
+                                <option value="1984">1984</option>
+                                <option value="1985">1985</option>
+                                <option value="1986">1986</option>
+                                <option value="1987">1987</option>
+                                <option value="1988">1988</option>
+                                <option value="1989">1989</option>
+                                <option value="1990">1990</option>
+                                <option value="1991">1991</option>
+                                <option value="1992">1992</option>
+                                <option value="1993">1993</option>
+                                <option value="1994">1994</option>
+                                <option value="1995">1995</option>
+                                <option value="1996">1996</option>
+                                <option value="1997">1997</option>
+                                <option value="1998">1998</option>
+                                <option value="1999">1999</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                                <option value="2002">2002</option>
+                                <option value="2003">2003</option>
+                                <option value="2004">2004</option>
+                                <option value="2005">2005</option>
+                                <option value="2006">2006</option>
+                                <option value="2007">2007</option>
+                                <option value="2008">2008</option>
+                                <option value="2009">2009</option>
+                                <option value="2010">2010</option>
+                                <option value="2011">2011</option>
+                                <option value="2012">2012</option>
+                                <option value="2013">2013</option>
+                                <option value="2014">2014</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                            </select>
+
+                            
+                        </div>
+                        <div class="Notify">
+                            <div class="error visibility-off">
+                                <div class="error-msg">
+                                    пожалуйста, выберите ответ
+                                </div>
+                            </div>
+                            <div class="symbol visibility-off">
+                            </div>
+                            <p class="symbol-name visibility-off"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-block step5-btn-block visibility-off">
+                    <button id="step5-btn" next="step6" class="btn white-color">Далее</button>
+                </div>
+            </section>
+            <section id="step6" class="visibility-off">
+                <p class="text">Обработка Ваших данных:</p>
+                <div class="progress-req">
+                    <div class="into-progress-req"></div>
+                </div>
+                <div class="tasks">
+                    <div class="task">
+                        <div class="msg-task">Анализ введенных данных . . . . . . . </div>
+                        <div class="status-task process">Идёт запись!</div>
+                    </div>
+                    <div class="task">
+                        <div class="msg-task">Коррекция астрологического знака . . . . . . . </div>
+                        <div class="status-task process">Идёт запись!</div>
+                    </div>
+                    <div class="task">
+                        <div class="msg-task">Расчет вариаций ответов . . . . . . . </div>
+                        <div class="status-task process">Идёт запись!</div>
+                    </div>
+                    <div class="task">
+                        <div class="msg-task">Генерация предсказания . . . . . . .</div>
+                        <div class="status-task process">Идёт запись!</div>
+                    </div>
+                    <div class="task">
+                        <div class="msg-task">Сохранение результата . . . . . . . </div>
+                        <div class="status-task process">Идёт запись!</div>
+                    </div>
+                    <div class="task">
+                        <div class="msg-task">Поиск свободного оператора . . . . . . . </div>
+                        <div class="status-task process">Идёт запись!</div>
+                    </div>
+                    <div class="task">
+                        <div class="msg-task">Начала озвучки и записи аудио-сообщения . . . . . . .</div>
+                        <div class="status-task process">Идёт запись!</div>
+                    </div>
+                </div>
+            </section>
+            <section id="step7" class="visibility-off">
+                <p class="text">Спасибо за Ваши ответы!</p>
+                <p class="text blue-color">
+                    Поздравляем! Прослушать свой персональный гороскоп возможно уже сейчас!
+                </p>
+                <span class="headline">
+                    2021 год Вас ошарашит!
+                </span>
+                <p class="text">Вас ждёт то, чего Вы никак не ожидали. Первые известия Вы получите совсем скоро, возможно это 17-18 ноября!</p>
+                <p class="text">
+                    Что бы прослушать аудио-сообщение, необходимо нажать на кнопку ниже и позвонить со своего мобильного телефона. Позвоните и Прослушайте очень серьезную информацию!
+                </p>
+                <div class="btn-block step7-btn-block visibilitysect-on">
+                    <button id="step7-btn" class="btn white-color">Звонить и слушать</button>
+                </div>
+            </section>
+            <section id="step8" class="visibility-off"><div class="step8-block"></div></section>
+        </main>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <p class="footer-text">2020 © horoscop personal</p>
+        </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
